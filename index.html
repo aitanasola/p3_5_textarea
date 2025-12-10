@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sketch</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+    <style>
+      *{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+      }
+      @font-face{
+        font-family: Andale Mono;
+        src: url('font/Andale Mono');
+      }
+      body,
+      textarea{
+        font-family: Andale Mono;
+      }
+      textarea{
+        position: relative;
+        top:0;
+        left:0;
+       padding: 1em;
+       margin: 1em;
+       background-color: beige;
+       border: 1px solid;
+       width: 20 cm;
+       height: 10em;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>POSTS AAVV</h1>
+    <p>projecte per a realitzar la gràfica comunicativa</p>
+   <label for="">header1</label> 
+    <textarea name="t" id="text_area">
+Presentació inauguració
+seu provisional
+AAVV El partidor
+    </textarea>
+
+    <label for="">main content</label>
+    <textarea name="t" id="text_area_main"> 
+Exposició Pep Hernández
+Ladytron dj list
+picaeta
+   </textarea>
+
+   <label for="">header2</label>
+    <textarea name="t" id="text_area_header2"> 
+C/S Domènec
+AAVV El partidor
+   </textarea>
+
+    <div id="canvasWrapper"></div>
+    <script src="sketch.js"></script>
+  </body>
+</html>
